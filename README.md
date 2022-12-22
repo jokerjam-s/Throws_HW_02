@@ -17,14 +17,30 @@
 Если необходимо, исправьте данный код <br>
 (задание 2 https://docs.google.com/document/d/17EaA1lDxzD5YigQ5OAal60fOFKVoCbEJqooB9XfhT7w/edit)
 
+Скриншот
+
+!["Screen 1"](ScreenShots/Task_02_01.png "Исправление ошибок")
+
+---
 
 ### Задача 3
 
 Дан следующий код, исправьте его там, где требуется <br>
 (задание 3 https://docs.google.com/document/d/17EaA1lDxzD5YigQ5OAal60fOFKVoCbEJqooB9XfhT7w/edit)
 
+Скриншот
+
+!["Screen 1"](ScreenShots/Task_03_01.png "Исправление ошибок")
+
+--- 
+
 ### Задача 4
 
 Разработайте программу, которая выбросит Exception, когда пользователь вводит пустую строку. Пользователю должно показаться сообщение, что пустые строки вводить нельзя.
 
+Скриншот
+
+!["Screen 1"](ScreenShots/Task_04_01.png "String value")
+
+--- 
 

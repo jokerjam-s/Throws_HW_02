@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
  * и возвращает введенное значение. Ввод текста вместо числа не должно приводить к падению приложения,
  * вместо этого, необходимо повторно запросить у пользователя ввод данных.
  * <p>
- * Для проверки валидности введенного числа исользуем регулярное выражение. ВЫвод через логгер.
+ * Для проверки валидности введенного числа исользуем регулярное выражение.
  */
 
 public class Main {
@@ -20,7 +20,6 @@ public class Main {
     public static void main(String[] args) {
         Logger logger = Logger.getAnonymousLogger();
 
-        // проверка полученного результата
         logger.info("Введено " + getFloatConsole("Введите число: "));
     }
 
@@ -31,7 +30,6 @@ public class Main {
      */
     public static float getFloatConsole(String message){
         boolean valueIsNotRight = true;
-        Logger logger = Logger.getAnonymousLogger();
         float value = 0;
         Pattern pattern = Pattern.compile(regValue);
 
@@ -47,7 +45,7 @@ public class Main {
                 value = Float.parseFloat(valueToConvert);
                 valueIsNotRight = false;
             } else {
-                logger.info("Неверный формат числа! Повторите ввод.");
+                System.out.println("Неверный формат числа! Повторите ввод.");
             }
         }
         return value;
